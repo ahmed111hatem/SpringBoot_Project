@@ -1,0 +1,38 @@
+# Maven
+target/
+
+# Maven Wrapper
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+
+# Spring
+.springBeans
+.sts4-cache
+.apt_generated
+
+# Environment
+.env
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+*.tmp
+*.swp
+*.orig
+
+# Build
+build/
+out/
+dist/
