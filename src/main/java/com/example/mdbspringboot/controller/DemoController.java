@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package com.example.mdbspringboot.controller;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Controller;
@@ -26,11 +26,9 @@ public class DemoController {
     //root Link
     // @CrossOrigin
     @GetMapping("/home")
-    @ResponseBody
     public String home() {
 //    	This Line is suppose to load the src/main/resources/templates/index.html 
-//    	Update it worked Don't ask me how :)
-    	return "index"; 
+    	return "HTML/index";
     }
     
     @GetMapping("/home/about")

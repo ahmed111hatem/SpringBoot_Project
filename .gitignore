@@ -18,7 +18,8 @@ target/
 .apt_generated
 
 # Environment
-.env
+**/.env
+**/application.properties
 
 # Logs
 *.log
